@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', Helvetica, sans-serif;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #49C0DB;
+}
+
+header , footer {
+    padding: 1rem;
+    color: white;
+}
+
+header {
+    padding-top: 2rem;
+}
+
+.container {
+    background-color: #EADA62;
+    padding: 4.5rem 4.5rem 2rem 4.5rem;
+    border-radius:4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow:  0 0.4rem 0.3rem #535353;
+}
+
+
+.sketchPad {
+    width: 512px;
+    height: 512px;
+    border-radius: 2rem;
+    background-color: #505050;
+    box-shadow:  inset 0 0.3rem 0.2rem #2c2c2c;
+}
+
+.controls {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls button {
+    width: 4rem;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    border-style: none;
+    border: 0.2rem solid #505050;
+    font-size: 1.7rem;
+    color: #505050;
+    font-weight: bold;
+    box-shadow:  0 0.2rem 0.125rem #535353;
+
+}
+
+.controls button:active {
+    box-shadow: inset 0 0.2rem 0.125rem #535353;
+    color: #da4646;
+    border-color: #da4646;
+   
+}
+
+.status {
+    text-align: center;
+    background-color:  #505050;
+    width: 11rem;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    color: white;
+    border: 0.3rem solid white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    box-shadow:  inset 0 0.4rem 0.2rem #2c2c2c;
+}
+
+footer {
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+footer img {
+
+    filter: invert(16%) sepia(3%) saturate(163%) brightness(97%) contrast(84%);
+    width: 2rem;
+}
